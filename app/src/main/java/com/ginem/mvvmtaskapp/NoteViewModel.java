@@ -2,13 +2,14 @@ package com.ginem.mvvmtaskapp;
 
 import android.app.Application;
 
+
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-class NoteViewModel extends AndroidViewModel {
+public class NoteViewModel extends AndroidViewModel {
     private NoteRepository repository;
     private LiveData<List<Note>> allNotes;
 
